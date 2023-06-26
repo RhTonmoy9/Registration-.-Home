@@ -8,7 +8,7 @@ html {
 	width: 100%;
 	opacity: 90%;
 	position: absolute;
-	filter: blur(5px);
+	filter: blur(1px);
 	z-index: -1;
 }
 .background {
@@ -28,6 +28,7 @@ body {
 	line-height: 24px;
 	background: rgb (213, 206, 188) ;
 	background-image:url('https://unsplash.com/photos/vngzm4P2BTs');
+	overflow: hidden ;
 }
 .signup {
 	margin-top: 0px;
@@ -50,12 +51,12 @@ body {
 
 }
 .h1 {
-	background: 2px solid black;
+	border: 4px solid black;
 }
 
 .avatar img{
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
 	border: 1px solid black;
 	border-radius: 100%;
 	text-align: center;
@@ -86,16 +87,18 @@ body {
 
 }
 .form-sign {
-	padding-bottom:22px;
-	text-align: left;
+	padding-bottom:18px;	
 	font-size: 16px;
 	display: block;
 	margin-left: 70px;
+	margin-right: 70px;
 }
 
 .form-sign label {
 	display: block;
 	padding-bottom: 2px;
+	text-align: left;
+	margin-left: 24px;
 }
 
 .form-sign input {
@@ -103,10 +106,11 @@ body {
 	height: 38px;
 	border-radius: 8px;
 	height: 28px;
+	text-align: center;
 }
 
-.about-me input {
-	height: 52px;
+.about-me  {
+	height: 72px;
 	width: 80%;
 	padding-bottom: 18px;
 	border-radius: 10px;
@@ -147,5 +151,23 @@ body {
 	font-size: 20px;
 	text-align: left;
 	display: inline-block;
-
 }
+
+.form-sign-2 label {
+	padding-bottom:2px;
+	font-size: 16px;
+	text-align: left;
+	display: block;
+	margin-left: 100px;
+	margin-right: 70px;
+}
+
+.form-sign-2 input {
+	width: 70%;
+	height: 68px;
+
+	border-radius: 8px;
+	margin:4px 70px;
+}
+
+.
